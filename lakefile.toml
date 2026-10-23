@@ -1,0 +1,10 @@
+name = "alef"
+version = "0.1.0"
+defaultTargets = ["alef"]
+
+[[lean_lib]]
+name = "Alef"
+
+[[lean_exe]]
+name = "alef"
+root = "Main"
