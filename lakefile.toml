@@ -2,8 +2,15 @@ name = "alef"
 version = "0.1.0"
 defaultTargets = ["alef"]
 
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
 [[lean_lib]]
 name = "Alef"
+
+[[lean_lib]]
+name = "Learn"
 
 [[lean_exe]]
 name = "alef"
